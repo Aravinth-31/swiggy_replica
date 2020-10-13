@@ -1,0 +1,58 @@
+.Login .form,
+.Signup .form{
+    position: fixed;
+    right: 0;
+    background: white;
+    height: 100%;
+    width: 480px;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-right: 4%;
+}
+.Login .close,
+.Signup .close{
+    float: left;
+    cursor: pointer;
+}
+.Login .form .switch,
+.Signup .form .switch{
+    color: #fc8019;
+    cursor: pointer;
+}
+.Login .error,
+.Signup .error{
+    visibility: hidden;
+}
+.Login .error.show,
+.Signup .error.show{
+    visibility: visible;
+}
+.Login .form form .form-control,
+.Signup .form form .form-control{
+    padding: 35px 20px;
+    margin-bottom: 20px;
+}
+.Login .form form .form-control::placeholder,
+.Signup .form form .form-control::placeholder{
+    font-size: 18px;
+    opacity: 0.7;
+}
+.Login .form form button.form-control,
+.Signup .form form button.form-control{
+    padding:30px;
+    background: #fc8019;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+}
+.Signup .form form .refer{
+    color: #5d8ed5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.Signup .form form .terms a{
+    text-decoration: none;
+}
